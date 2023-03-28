@@ -1,13 +1,106 @@
-body {
+
+* {
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  text-decoration: none
+}
+.brown{
+  background-color: var(--brown-50);
+}
+.blue{
+  background-color: var(--blue-800);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.Aboutus .heading,
+.Aboutus .left,
+.Aboutus .grids,
+.contactus>div,
+.footer>div,
+.home .grids,
+.flex,
+.home .community,
+.home .heading,
+.home>.BigHeader_container,
+.home>.buttons,
+.navbar,
+.service .heading, 
+.service .left,
+.service .grids,
+.works {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 40px 16px;
+  width: 100%
+}
+
+
+
+@media (min-width:576px) {
+
+  .Aboutus .heading,
+  .Aboutus .left,
+  .Aboutus .grids,
+  .contactus>div,
+  .footer>div,
+  .home .grids,
+.flex,
+.home .community,
+  .home .heading,
+  .home>.BigHeader_container,
+  .home>.buttons,
+  .navbar,
+  .service .heading, 
+.service .left,
+.service .grids,
+  .works {
+      padding: 80px 24px
+  }
+}
+
+@media (min-width:1024px) {
+
+  .Aboutus .heading,
+  .Aboutus .left,
+  .Aboutus .grids,
+  .contactus>div,
+  .footer>div,
+  .home .grids,
+.flex,
+.home .community,
+  .home .heading,
+  .home>.BigHeader_container,
+  .home>.buttons,
+  .navbar,
+  .service .heading, 
+.service .left,
+.service .grids,
+  .works {
+      padding: 120px 32px
+  }
+
+}
+
+@media (min-width:1280px) {
+
+  .Aboutus .heading,
+.Aboutus .left,
+  .Aboutus .grids,
+  .contactus>div,
+  .footer>div,
+  .home .grids,
+.flex,
+.home .community,
+  .home .heading,
+  .home>.BigHeader_container,
+  .home>.buttons,
+  .navbar,
+  .service .heading, 
+.service .left,
+.service .grids,
+  .works {
+      padding: 120px 144px
+  }
 }

@@ -1,0 +1,40 @@
+.howBanner{
+    width: 100%;
+    margin-top: 40px;
+}
+
+@media (min-width:576px)  {
+    .sideImage .banner-bottom {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+  .service .sideImage{
+    width: 492px;
+}  
+.howBanner{
+    max-width: 377px;
+    height: 484.04px;
+    margin-top: 0;
+    margin-bottom: -40%;
+}
+.sideImage .banner-bottom {
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 954px;
+}
+
+}
+
+
+@media (min-width: 1440px) {
+  .howBanner{
+      max-width: 560px;
+      height: 719px;
+      margin-bottom: -40%;
+  }
+  }

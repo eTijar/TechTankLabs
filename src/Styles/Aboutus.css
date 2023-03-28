@@ -1,0 +1,43 @@
+.Aboutus #banner img{
+    width: 100%;
+    margin: 40px auto -30%;
+}
+.approach{
+    margin-top: 15%;
+}
+.Aboutus .blue-banner{
+    margin-bottom: 40px;
+}
+
+@media (min-width:576px)  {
+    .Aboutus .blue-banner .banner-bottom {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    .Aboutus .blue-banner{
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width:1024px)  {
+    .Aboutus #banner img {
+        margin: 60px auto -30%;
+    }
+    .Aboutus .blue-banner .banner-bottom {
+        font-size: 24px;
+        line-height: 32px;
+        max-width: 954px;
+    }
+    .Aboutus .grid_subtitle{
+        max-width: 856px;
+    }
+    .Aboutus .blue-banner{
+        margin-bottom: 120px;
+    }
+}
+@media (min-width:1440px)  {
+.Aboutus .blue-banner{
+    margin-bottom: 200px;
+}
+}

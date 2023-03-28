@@ -1,0 +1,126 @@
+.form {
+    display: grid;
+    grid-row-gap: 24px;
+    padding: 16px;
+    padding-bottom: 24px;
+    background-color: var(--blue-800);
+    /* border-radius: 24px; */
+    text-align: left;
+}
+.popup_content{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #06070875
+}
+.popup{
+    background-color: var(--white);
+    width: 288px;
+    border-radius: 8px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.pop_text{
+    width: 232px;
+    font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+margin: 0 auto 40px;
+color: var(--grey-900);
+}
+
+.form_header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: var(--white);
+}
+
+.form>div {
+    display: grid;
+    text-align: left;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--white);
+}
+
+input,
+textarea {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-600);
+    width: 100%;
+    height: 56px;
+    padding: 16px;
+    border: 0.5px solid var(--grey-400);
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid var(--grey-700);
+}
+
+textarea {
+    height: 144px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--grey-200);
+}
+
+/* form .btn {
+    color: var(--green-900);
+    margin-top: 8px;
+} */
+
+@media (min-width: 576px) {
+    .form {
+        padding: 24px;
+        padding-bottom: 40px;
+    }
+    .popup{
+        width: 426px;
+    }
+    .pop_text{
+        width: 328px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    }
+
+    .form_header {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .form .btn {
+        margin-top: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .form {
+        padding: 32px;
+        padding-bottom: 50px;
+    }
+
+}
+   

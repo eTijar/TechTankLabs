@@ -1,0 +1,124 @@
+.home .blue-banner {
+    background-image: url('../images/VectorRight.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.adjustMarginB{
+    padding-bottom: 0 !important;
+    }
+
+.community {
+    text-align: center;
+    color: var(--white);
+    background-color: var(--blue-800);
+    background-color: var(--blue-800);
+    background-image: url('../images/VectorLeft.png'), url('../images/VectorRight.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left, right;
+}
+.community .text {
+    max-width: 760px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+.community .small-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 760px;
+    margin: 0 auto;
+
+}
+
+
+.waitlist_form{
+    margin: 40px auto 0;
+
+    width: 100%; 
+    max-width: 388px;
+}
+.input_email{
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+border: 1px solid var(--grey-300);
+}
+
+.waitlist_form .btn{
+    margin-top: 16px;
+    }
+.choose{
+    background-image: url('../images/VectorLight.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+@media (min-width:576px)  {
+    .community .text {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .community .small-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .adjustMarginB{
+        padding-bottom: 40px !important;
+        }
+}
+@media (min-width:1024px) {
+    .home .grid_subtitle{
+        margin-top: 0;
+    }
+    .community .text {
+        margin-bottom: 16px;
+        font-size: 44px;
+    line-height: 49px;
+    }
+    .choose{
+        background-position: right;
+    }
+    .choose .grid_title{
+        margin-bottom: 24px;
+    }
+    .community .small-text {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .waitlist_form{
+        display: flex;
+    align-items:center;
+    max-width: fit-content;
+    margin: 60px auto 0;
+    column-gap: 16px;
+    }
+    .waitlist_form .btn{
+        width: 181px;
+    margin-top: 0;
+    }
+    .input_email{
+      width: 351px;
+    }
+    .adjustMarginB{
+    padding-bottom: 40px !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    .community .text {
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -1px;
+    }
+    .adjustMarginB{
+        padding-bottom: 0;
+    }
+}

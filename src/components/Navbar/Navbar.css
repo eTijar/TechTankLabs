@@ -1,0 +1,152 @@
+#navbar {
+    height: 75px;
+    padding: 0 16px;
+}
+
+.navbar_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1152px;
+    height: inherit;
+}
+
+.navbar_content>a img {
+    width: 76.89px;
+    Height: 25px;
+}
+
+.dropdown {
+    width: 24px;
+    height: 24px;
+}
+
+.nav_links .quote {
+    width: fit-content;
+    padding: 8px 34px;
+    background-color: var(--brown-300);
+    border: 1px solid var(--brown-300);
+    margin-top: 24px;
+    color: var(--white);
+}
+
+.nav_links .quote a {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: var(--grey-900);
+    display: inline;
+}
+
+.nav_links .quote:hover {
+    border: 1px solid var(--brown-400);
+    background-color: var(--brown-400);
+}
+
+.nav_links .quote:hover a {
+    color: var(--grey-900);
+}
+
+.nav_links .quote img {
+    width: 24px;
+    height: 24px;
+}
+
+.nav_links {
+    display: none;
+    position: fixed;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--white);
+    text-align: left;
+    padding: 16px;
+}
+
+.nav_links ul {
+    list-style: none;
+    color: gray;
+}
+
+.nav_links li {
+    padding-bottom: 24px;
+}
+
+.nav_links li:last-child {
+    padding-bottom: 0px;
+}
+
+.nav_links li>a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--grey-900);
+}
+
+.nav_links li>a:hover,
+.nav_links li>a:focus {
+    color: var(--grey-900);
+}
+
+@media (min-width: 576px) {
+    #navbar {
+        padding: 0 24px;
+    }
+}
+
+@media (min-width:1024px) {
+    #navbar {
+        padding: 0 32px;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .nav_links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        top: 0;
+        width: fit-content;
+        height: auto;
+        text-align: left;
+        padding: 0;
+    }
+
+    .nav_links ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 361px;
+        list-style: none;
+        color: gray;
+        margin-right: 32px;
+    }
+
+    .nav_links li {
+        padding-bottom: 0;
+    }
+
+    .nav_links .quote {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    #navbar {
+        padding: 0 144px;
+    }
+
+    .nav_links ul {
+        width: 409px;
+        margin-right: 48px;
+    }
+}

@@ -1,0 +1,140 @@
+
+.contactus .contact_container{
+    padding-top: 0px;
+    background-image: url('../images/VectorLight.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+/* .contactus .green-title {
+    color: var(--white);
+    margin: 0 auto;
+} */
+.contactus .banner-title{
+    color: var(--grey-900);
+    margin-bottom: 16px;
+}
+
+.contactus .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: var(--grey-900);
+    text-decoration: none;
+}
+
+.contactus .text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-600);
+}
+
+.contactus .text li {
+    margin-top: 8px;
+}
+
+.contactus .text a {
+    color: inherit;
+}
+
+
+.contact_details {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.contact_details>div {
+    margin-top: 40px;
+}
+
+.contact_details a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--grey-800);
+
+}
+
+.contactus  .contact_details > .title {
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.contactus .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: var(--grey-900);
+    margin-top: 8px;
+    width: 100%;
+    /* max-width: 331px; */
+}
+
+.contactus .text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-600);
+    list-style: none;
+    width: 90%;
+}
+
+
+@media (min-width:576px) {
+
+    .contactus .banner-bottom {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    .contactus .title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .contactus .text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media (min-width:1024px) {
+
+    .contactus .banner-bottom {
+        font-size: 24px;
+        line-height: 32px;
+        max-width: 954px;
+    }
+    .contact_container {
+        width: fit-content;
+        display: grid;
+        grid-template-columns: 558px auto;
+        grid-gap: 131px;
+        justify-content: space-between;
+    }
+    .contact_details {
+      
+        /* margin-top: 100px; */
+        margin-right: 0;
+        margin-left: auto;
+        gap: 40px;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .contact_details>div {
+        margin-top: 0;
+    }
+
+    .contactus .text {
+        width: 100%;
+    }
+
+
+}
