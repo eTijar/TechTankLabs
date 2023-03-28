@@ -1,10 +1,9 @@
 @font-face {
 font-family: 'Helvetica Neue';
-src: url('../fonts/avenir-black_1-webfont.woff2') format('woff2'),
-     url('../fonts/avenir-black_1-webfont.woff') format('woff');
-font-weight: 800;
+src: url('../fonts/Helvetica\ Neue\ W01\ 77\ Bd\ Cn\ Obl.otf') format('otf'),
+     url('../fonts/Helvetica\ Neue\ LTW0697BlkCnObl.ttf') format('ttf');
+font-weight: 700;
 font-style: normal;
-
 }
 
 
@@ -12,8 +11,8 @@ font-style: normal;
 
 @font-face {
 font-family: 'Helvetica Neue';
-src: url('../fonts/avenir-book-webfont.woff2') format('woff2'),
-     url('../fonts/avenir-book-webfont.woff') format('woff');
+src: url('../fonts/Helvetica\ Neue\ LTW0697BlkCnObl.otf') format('otf'),
+     url('../fonts/Helvetica\ Neue\ LTW0697BlkCnObl.ttf') format('ttf');
 font-weight: 400;
 font-style: normal;
 
@@ -24,8 +23,8 @@ font-style: normal;
 
 @font-face {
 font-family: 'Helvetica Neue';
-src: url('../fonts/avenir-medium-webfont.woff2') format('woff2'),
-     url('../fonts/avenir-medium-webfont.woff') format('woff');
+src: url('../fonts/Helvetica\ Neue\ W01\ 66\ Medium\ It.otf') format('otf'),
+     url('../fonts/Helvetica\ Neue\ W01\ 66\ Medium\ It.ttf') format('ttf');
 font-weight: 500;
 font-style: normal;
 
