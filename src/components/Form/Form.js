@@ -136,7 +136,7 @@ const [email, setEmail]= useState('')
       onChange={(e)=>{setEmail(e.target.value)}} 
       class="input_email" id="waitlist_email" placeholder="Enter your email address" required />
 
-      <button type="submit" className="brown_btn btn">Join our newsletter</button>
+      <button type="submit" className="brown_btn btn"><p>Join our newsletter</p></button>
 
   </form>
   );
@@ -211,7 +211,7 @@ export const Form = () => {
         errors={state.errors}
       />
       </div>
-      <button type="submit" className="btn brown_btn">SEND MESSAGE</button>
+      <button type="submit" className="btn brown_btn"><p>SEND MESSAGE</p></button>
     </form>
     </>
   );

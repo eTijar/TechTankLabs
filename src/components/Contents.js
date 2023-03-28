@@ -1,9 +1,9 @@
-import MANIFESTO from "../images/first.png";
+import MANIFESTO from "../images/first.jpg";
 import Fund from "../images/fund.png";
 import Gain from "../images/gain.png";
 import Validate from "../images/validate.png";
 import Develop from "../images/develop.png";
-import Values from "../images/img2.png";
+import Values from "../images/img2.jpg";
 import Matchmaking from "../images/matchmaking.png";
 import Fundraising from "../images/fundrasing.png";
 import Business from "../images/business.png";
@@ -11,7 +11,7 @@ import Technology from "../images/technology.png";
 import Idea from "../images/idea.png";
 import Cofunder from "../images/co-founder.png";
 import Team from "../images/team.png";
-import Partner from "../images/partnering.png"
+import Partner from "../images/partnering.jpg"
 export const Home = {
     lauch:{
             title: "Our launch strategy",

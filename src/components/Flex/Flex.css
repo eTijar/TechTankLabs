@@ -11,6 +11,12 @@
   text-align: left;
   padding: 0;
 }
+.flexgrid > div{
+  width: 100%
+}
+.flexgrid .flex_subtitle{
+  max-width: 100%
+}
 
 .left .flex_subtitle, .left .flex_title {
   margin-left: 0;

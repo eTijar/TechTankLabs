@@ -1,7 +1,6 @@
 import {Banner2} from "../components/Banner/Banner";
 import "../Styles/Aboutus.css";
-import IMG1 from "../images/img1.png";
-import IMG2 from "../images/img2.png";
+import IMG1 from "../images/img1.jpg";
 import { GridImage } from "../components/Grids/Grids";
 import { About } from "../components/Contents";
 import { FlexGrid } from "../components/Flex/Flex";

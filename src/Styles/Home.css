@@ -75,7 +75,11 @@ border: 1px solid var(--grey-300);
         }
 }
 @media (min-width:1024px) {
-    .home .grid_subtitle{
+    /* .home .grid_subtitle{
+        margin-top: 0;
+    } */
+    
+    .home .grid_subtitle.launch_space{
         margin-top: 0;
     }
     .community .text {
@@ -103,6 +107,7 @@ border: 1px solid var(--grey-300);
     .waitlist_form .btn{
         width: 181px;
     margin-top: 0;
+    padding: 19px 17px;
     }
     .input_email{
       width: 351px;

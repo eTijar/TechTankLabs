@@ -19,7 +19,7 @@ const Index = () => {
         subtitle="Are you an entrepreneur, an engineer or a brilliant operator who wants to build the next big thing? Join TTLabs today and let’s get to work."
         link="https://form.typeform.com/to/dCMuWNKR"
       />
-      <GridText bgColor="adjustMarginB" grid="grid" data={Home.lauch} />
+      <GridText bgColor="adjustMarginB" grid="grid" launchSpace='launch_space' data={Home.lauch} />
       <Flex data={Home.flex} />
       <GridImage grid="grid gridImage" bgColor="brown" data={Home.manifesto} />
 

@@ -1,7 +1,6 @@
 @font-face {
 font-family: 'Helvetica Neue';
-src: url('../fonts/Helvetica\ Neue\ W01\ 77\ Bd\ Cn\ Obl.otf') format('otf'),
-     url('../fonts/Helvetica\ Neue\ LTW0697BlkCnObl.ttf') format('ttf');
+src: url('../fonts/HelveticaNeue-Bold.otf') format('otf');
 font-weight: 700;
 font-style: normal;
 }
@@ -11,8 +10,7 @@ font-style: normal;
 
 @font-face {
 font-family: 'Helvetica Neue';
-src: url('../fonts/Helvetica\ Neue\ LTW0697BlkCnObl.otf') format('otf'),
-     url('../fonts/Helvetica\ Neue\ LTW0697BlkCnObl.ttf') format('ttf');
+src: url('../fonts/HelveticaNeue-Regular.otf') format('otf');
 font-weight: 400;
 font-style: normal;
 
@@ -23,8 +21,7 @@ font-style: normal;
 
 @font-face {
 font-family: 'Helvetica Neue';
-src: url('../fonts/Helvetica\ Neue\ W01\ 66\ Medium\ It.otf') format('otf'),
-     url('../fonts/Helvetica\ Neue\ W01\ 66\ Medium\ It.ttf') format('ttf');
+src: url('../fonts/HelveticaNeue-Medium.otf') format('otf');
 font-weight: 500;
 font-style: normal;
 

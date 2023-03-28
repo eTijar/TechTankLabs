@@ -26,7 +26,7 @@ export const GridText = (props) => {
         <div className={props.grid}>
           <p className={` ${props.footer && "footerColor"} grid_title`}>{props.data.title}</p> 
           <div className="text">
-            <p className={` ${props.footer && "footerColor"} grid_subtitle`}>{props.data.subtitle}</p>
+            <p className={` ${props.footer && "footerColor"} ${props.launchSpace} grid_subtitle`}>{props.data.subtitle}</p>
             {props.footer &&
             <Buttons
               buttontype="brown_btn btn footer-btn"
