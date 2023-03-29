@@ -1,7 +1,7 @@
 import { Banner2} from "../components/Banner/Banner";
 import "../Styles/ContactUs.css";
 import WhatsApp from "../images/WhatsApp.png";
-import {Form} from "../components/Form/Form";
+import { ContactForm } from "../components/Form/Form";
 
 const ContactUs = () => {
   return (
@@ -13,7 +13,7 @@ const ContactUs = () => {
             subtitle="At TTLabs, we believe that building a successful startup requires a strong team with diverse skills and perspectives. That's why we're dedicated to helping aspiring entrepreneurs meet their co-founders and build the teams they need to succeed."
           />
       <div className="contact_container">
-          <Form />
+         <ContactForm />
           <div className="contact_details">
               <p className="title"> Contact details </p>
             <div className="">

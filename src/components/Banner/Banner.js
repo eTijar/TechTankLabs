@@ -1,5 +1,5 @@
 import "./Banner.css"
-import {Form} from "../Form/Form";
+import {ContactForm} from "../Form/Form";
 import { Link } from "react-router-dom";
 export const Banner = (props) => {
     return (
@@ -17,7 +17,7 @@ export const Banner = (props) => {
 
           {(() => {
         if (props.add) {
-          return (<Form/>)
+          return (<ContactForm/>)
         } else {
           return (
             <a href={`${props.link}`}>
@@ -45,9 +45,10 @@ export const Banner2 = (props) => {
       </div>
       {(() => {
         if (props.add) {
-          return (<Form/>)
+          return (<ContactForm/>)
         } else {
-          return ( <img src={props.img} className={props.imgClass} />)
+          return (
+             <img src={props.img} className={props.imgClass} />)
         }
       })()}
      

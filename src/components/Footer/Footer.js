@@ -47,10 +47,10 @@ const Footer = (props) => {
           <img src={Footer_logo} className="footer_logo" alt="" />
           <p>Create the businesses of the future with us.</p>
             <div className="social">
-            <a href=""><img src={Instagram} alt="" /></a>
+            <a href="https://instagram.com/ttlabs_vc?igshid=YmMyMTA2M2Y="><img src={Instagram} alt="" /></a>
             <a href=""><img src={Facebook} alt="" /></a>
-            <a href=""><img src={Twitter} alt="" /></a>
-            <a href=""><img src={LinkedIn} alt="" /></a>
+            <a href="https://twitter.com/ttlabs_vc?s=11&t=cV_9xZOh-6po59ncWQXKYg"><img src={Twitter} alt="" /></a>
+            <a href="https://www.linkedin.com/company/tt-labs/"><img src={LinkedIn} alt="" /></a>
             
             
             
@@ -65,7 +65,7 @@ const Footer = (props) => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/services">How it works</Link>
+                <Link to="/works">How it works</Link>
               </li>
               
               <li>

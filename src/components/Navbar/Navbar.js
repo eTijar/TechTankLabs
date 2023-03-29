@@ -40,7 +40,7 @@ const Navbar = () => {
                     <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <Link to="/services">How it works</Link>
+                    <Link to="/works">How it works</Link>
                   </li>
                   <li>
                     <Link to="/about-us">About Us</Link>
@@ -74,19 +74,19 @@ const Navbar = () => {
                       Home
                     </Link>
                   </li>
+                <li>
+                    <Link to="/about-us" onClick={() => linkClick()}>
+                      About Us
+                    </Link>
+                  </li>
                   <li>
-                    <Link to="/services" onClick={() => linkClick()}>
+                    <Link to="/works" onClick={() => linkClick()}>
                     How it works
                     </Link>
                   </li>
                   <li>
                     <Link to="/contact-us" onClick={() => linkClick()}>
                     Contact Us
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/about-us" onClick={() => linkClick()}>
-                      About Us
                     </Link>
                   </li>
                 </ul>

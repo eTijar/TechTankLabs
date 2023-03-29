@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 
 import Index from "./pages/Index";
-import Services from "./pages/Services";
+import Works from "./pages/Works";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 
@@ -27,9 +27,9 @@ function App() {
         // </React.Suspense>
       } />
 
-          <Route exact path="/services" element={
+          <Route exact path="/works" element={
           // <React.Suspense fallback={<>...</>}>
-            <Services />
+            <Works />
           // </React.Suspense>
         } />
 
