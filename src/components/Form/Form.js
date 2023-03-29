@@ -31,11 +31,11 @@ export const ContactForm = () => {
         console.log(values)
         actions.setSubmitting(false);
         actions.resetForm();
-        handleServerResponse(true, `Thanks ${values.name}, message sent successfully!`);
+        handleServerResponse(true, `Thanks, message sent successfully!`);
       })
       .catch(error => {
         actions.setSubmitting(false);
-        handleServerResponse(false, error.response.data.error);
+        handleServerResponse(false, `Please fill in valid details`);
       });
   };
 
@@ -76,7 +76,7 @@ export const ContactForm = () => {
                  
       {serverState && (
        
-        <p className={!serverState.ok ?  "errorMsg" : "submitted"}>
+        <p className={"submitted"}>
                     {serverState.msg}
                   </p>
                 )}
