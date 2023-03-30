@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   font-family: 'Helvetica Neue', sans-serif;
@@ -6,10 +5,12 @@
   padding: 0;
   text-decoration: none
 }
-.brown{
+
+.brown {
   background-color: var(--brown-50);
 }
-.blue{
+
+.blue {
   background-color: var(--blue-800);
 }
 
@@ -26,7 +27,7 @@
 .home>.BigHeader_container,
 .home>.buttons,
 .navbar,
-.service .heading, 
+.service .heading,
 .service .left,
 .service .grids,
 .works {
@@ -46,17 +47,17 @@
   .contactus>div,
   .footer>div,
   .home .grids,
-.flex,
-.home .community,
+  .flex,
+  .home .community,
   .home .heading,
   .home>.BigHeader_container,
   .home>.buttons,
   .navbar,
-  .service .heading, 
-.service .left,
-.service .grids,
+  .service .heading,
+  .service .left,
+  .service .grids,
   .works {
-      padding: 80px 24px
+    padding: 80px 24px
   }
 }
 
@@ -68,17 +69,17 @@
   .contactus>div,
   .footer>div,
   .home .grids,
-.flex,
-.home .community,
+  .flex,
+  .home .community,
   .home .heading,
   .home>.BigHeader_container,
   .home>.buttons,
   .navbar,
-  .service .heading, 
-.service .left,
-.service .grids,
+  .service .heading,
+  .service .left,
+  .service .grids,
   .works {
-      padding: 120px 32px
+    padding: 120px 32px
   }
 
 }
@@ -86,21 +87,21 @@
 @media (min-width:1280px) {
 
   .Aboutus .heading,
-.Aboutus .left,
+  .Aboutus .left,
   .Aboutus .grids,
   .contactus>div,
   .footer>div,
   .home .grids,
-.flex,
-.home .community,
+  .flex,
+  .home .community,
   .home .heading,
   .home>.BigHeader_container,
   .home>.buttons,
   .navbar,
-  .service .heading, 
-.service .left,
-.service .grids,
+  .service .heading,
+  .service .left,
+  .service .grids,
   .works {
-      padding: 120px 144px
+    padding: 120px 144px
   }
 }

@@ -5,9 +5,6 @@ font-weight: 700;
 font-style: normal;
 }
 
-
-
-
 @font-face {
 font-family: 'Helvetica Neue';
 src: url('../fonts/HelveticaNeue-Regular.otf') format('otf');
@@ -15,9 +12,6 @@ font-weight: 400;
 font-style: normal;
 
 }
-
-
-
 
 @font-face {
 font-family: 'Helvetica Neue';

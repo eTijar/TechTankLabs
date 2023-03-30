@@ -1,6 +1,5 @@
 import "./Navbar.css";
 import Logo from "../../images/logo.png";
-import RightArrow from "../../images/arrow.png";
 import Grid from "../../images/grid.png";
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
@@ -16,7 +15,7 @@ const Navbar = () => {
   }, []);
 
   const [show, setShow] = useState(false);
-  
+
   const linkClick = () => {
     show && setShow(false);
     console.log(show);
@@ -74,28 +73,28 @@ const Navbar = () => {
                       Home
                     </Link>
                   </li>
-                <li>
+                  <li>
                     <Link to="/about-us" onClick={() => linkClick()}>
                       About Us
                     </Link>
                   </li>
                   <li>
                     <Link to="/works" onClick={() => linkClick()}>
-                    How it works
+                      How it works
                     </Link>
                   </li>
                   <li>
                     <Link to="/contact-us" onClick={() => linkClick()}>
-                    Contact Us
+                      Contact Us
                     </Link>
                   </li>
                 </ul>
                 <div className="quote">
                   <a href="https://form.typeform.com/to/dCMuWNKR" onClick={() => linkClick()}>
-                  Join Our Program
+                    Join Our Program
                   </a>
                 </div>
-                
+
               </div>
             </div>
           );

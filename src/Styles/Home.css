@@ -1,12 +1,13 @@
 .home .blue-banner {
     background-image: url('../images/VectorRight.png');
-    background-size:contain;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
 }
-.adjustMarginB{
+
+.adjustMarginB {
     padding-bottom: 0 !important;
-    }
+}
 
 .community {
     position: relative;
@@ -19,6 +20,7 @@
     background-repeat: no-repeat;
     background-position: left, right;
 }
+
 .community .text {
     max-width: 760px;
     font-style: normal;
@@ -28,6 +30,7 @@
     margin: 0 auto;
     margin-bottom: 8px;
 }
+
 .community .small-text {
     font-style: normal;
     font-weight: 400;
@@ -39,82 +42,93 @@
 }
 
 
-.waitlist_form{
+.waitlist_form {
     margin: 40px auto 0;
 
-    width: 100%; 
+    width: 100%;
     max-width: 388px;
 }
-.input_email{
+
+.input_email {
     font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-border: 1px solid var(--grey-300);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    border: 1px solid var(--grey-300);
 }
 
-.waitlist_form .btn{
+.waitlist_form .btn {
     margin-top: 16px;
-    }
-.choose{
+}
+
+.choose {
     background-image: url('../images/VectorLight.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: right;
 }
-@media (min-width:576px)  {
+
+@media (min-width:576px) {
     .community .text {
         font-size: 32px;
         line-height: 38px;
     }
+
     .community .small-text {
         font-size: 16px;
         line-height: 24px;
     }
-    .adjustMarginB{
+
+    .adjustMarginB {
         padding-bottom: 40px !important;
-        }
+    }
 }
+
 @media (min-width:1024px) {
-    /* .home .grid_subtitle{
-        margin-top: 0;
-    } */
-    
-    .home .grid_subtitle.launch_space{
+
+    .home .grid_subtitle.launch_space {
         margin-top: 0;
     }
+
     .community .text {
         margin-bottom: 16px;
         font-size: 44px;
-    line-height: 49px;
+        line-height: 49px;
     }
-    .choose{
+
+    .choose {
         background-position: right;
     }
-    .choose .grid_title{
+
+    .choose .grid_title {
         margin-bottom: 24px;
     }
+
     .community .small-text {
         font-size: 20px;
         line-height: 28px;
     }
-    .waitlist_form{
+
+    .waitlist_form {
         display: flex;
-    align-items:center;
-    max-width: fit-content;
-    margin: 60px auto 0;
-    column-gap: 16px;
+        align-items: center;
+        max-width: fit-content;
+        margin: 60px auto 0;
+        column-gap: 16px;
     }
-    .waitlist_form .btn{
+
+    .waitlist_form .btn {
         width: 181px;
-    margin-top: 0;
-    padding: 19px 17px;
+        margin-top: 0;
+        padding: 19px 17px;
     }
-    .input_email{
-      width: 351px;
+
+    .input_email {
+        width: 351px;
     }
-    .adjustMarginB{
-    padding-bottom: 40px !important;
+
+    .adjustMarginB {
+        padding-bottom: 40px !important;
     }
 }
 
@@ -124,7 +138,8 @@ border: 1px solid var(--grey-300);
         line-height: 48px;
         letter-spacing: -1px;
     }
-    .adjustMarginB{
+
+    .adjustMarginB {
         padding-bottom: 0;
     }
 }

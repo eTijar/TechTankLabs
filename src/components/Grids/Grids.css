@@ -3,28 +3,32 @@
     text-align: left;
     margin-bottom: 80px;
 }
+
 .grid {
     text-align: left;
 }
-.grids .text{
+
+.grids .text {
     margin-bottom: 24px;
 }
+
 .grid-image {
     width: 100%;
-    /* height: 287.41px; */
 }
+
 .service .grid-image {
     width: 100%;
-    /* height: 287.41px; */
 }
-.grid_smallText{
-    color: var(--blue-500); 
+
+.grid_smallText {
+    color: var(--blue-500);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 8px;
 }
+
 .grid_title {
     width: 100%;
     font-style: normal;
@@ -32,7 +36,6 @@
     font-size: 20px;
     line-height: 28px;
     color: var(--grey-800);
-    /* margin-top: 24px; */
 }
 
 .grid_subtitle {
@@ -46,10 +49,11 @@
     color: var(--grey-600);
 }
 
-.service .gridImage{
+.service .gridImage {
     display: grid;
 }
-.service .grid-image{
+
+.service .grid-image {
     grid-area: 1/2;
     grid-column-start: revert;
     margin-bottom: 40px;
@@ -57,18 +61,9 @@
 
 
 @media (min-width: 576px) {
-    .grids .text{
+    .grids .text {
         margin-bottom: 40px;
     }
-    /* .grid-image {
-        max-width: 560px;
-        height: 402.18px;
-    }
-
-    .service .grid-image {
-        width: 100%;
-        height: 402px;
-    } */
 
     .grid_title {
         max-width: 405px;
@@ -94,29 +89,30 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 24px;
-        /* margin-bottom: 100px; */
         text-align: left;
     }
-    .service .gridImage{
+
+    .service .gridImage {
         grid-column-gap: 64px;
         grid-template-columns: 5fr 4fr;
     }
 
-    .grids .text{
+    .grids .text {
         margin-bottom: 0px;
     }
+
     .gridImage {
         align-items: center;
     }
 
     .grid-image {
-        height : 520px;
-      max-width: 468px;
+        height: 520px;
+        max-width: 468px;
     }
 
-    .service .grid-image{
+    .service .grid-image {
         margin-bottom: 0;
-            height: 480px;
+        height: 480px;
     }
 
     .grid_title {
@@ -128,17 +124,19 @@
 
     .grid_subtitle {
         margin-top: 24px;
-            font-size: 20px;
-            line-height: 28px;
-        }
+        font-size: 20px;
+        line-height: 28px;
+    }
 }
 
 @media (min-width: 1280px) {
- 
+
     .grid {
         grid-column-gap: 32px;
     }
-    .grid-image,  .service .grid-image  {
+
+    .grid-image,
+    .service .grid-image {
         max-width: 560px;
         height: 547px;
     }

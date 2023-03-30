@@ -1,5 +1,4 @@
-
-.contactus .contact_container{
+.contactus .contact_container {
     padding-top: 0px;
     background-image: url('../images/VectorLight.png');
     background-size: contain;
@@ -7,11 +6,7 @@
     background-position-x: right;
 }
 
-/* .contactus .green-title {
-    color: var(--white);
-    margin: 0 auto;
-} */
-.contactus .banner-title{
+.contactus .banner-title {
     color: var(--grey-900);
     margin-bottom: 16px;
 }
@@ -58,7 +53,7 @@
 
 }
 
-.contactus  .contact_details > .title {
+.contactus .contact_details>.title {
     font-size: 32px;
     line-height: 39px;
 }
@@ -72,7 +67,6 @@
     color: var(--grey-900);
     margin-top: 8px;
     width: 100%;
-    /* max-width: 331px; */
 }
 
 .contactus .text {
@@ -93,6 +87,7 @@
         font-weight: 400;
         line-height: 28px;
     }
+
     .contactus .title {
         font-size: 24px;
         line-height: 32px;
@@ -111,6 +106,7 @@
         line-height: 32px;
         max-width: 954px;
     }
+
     .contact_container {
         width: fit-content;
         display: grid;
@@ -118,8 +114,9 @@
         grid-gap: 131px;
         justify-content: space-between;
     }
+
     .contact_details {
-      
+
         /* margin-top: 100px; */
         margin-right: 0;
         margin-left: auto;
@@ -135,6 +132,4 @@
     .contactus .text {
         width: 100%;
     }
-
-
 }

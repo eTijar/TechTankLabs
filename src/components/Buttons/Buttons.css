@@ -7,15 +7,7 @@
     text-align: center;
     width: 100%;
     height: 56px;
-   /* color: var(--white);
-   background-color: var(--grey-200); */
-
 }
-/* .btn:focus,
-.btn:hover {
-    background-color: var(--brown-10);
-    border: 1px solid var(--brown-10);
-} */
 
 
 
@@ -24,12 +16,14 @@
     border: 1px solid var(--brown-300);
     color: var(--grey-900);
 }
+
 .btn.brown_btn:focus,
 .btn.brown_btn:hover {
     background-color: var(--brown-400);
     border: 1px solid var(--brown-400);
     color: var(--grey-900);
 }
+
 .btn.brown:focus,
 .btn.brown:hover {
     background-color: var(--brown-400);
@@ -41,8 +35,9 @@
     background-color: var(--blue-500);
     color: var(--white);
 }
+
 .btn.blue_btn:focus,
-.btn.blue_btn:hover{
+.btn.blue_btn:hover {
     border: 1px solid var(--blue-600);
     background-color: var(--blue-600);
     color: var(--white);

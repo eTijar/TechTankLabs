@@ -8,10 +8,11 @@
 }
 
 
-.footer_top.flex{
-text-align: left;
+.footer_top.flex {
+    text-align: left;
 }
-.footerColor{
+
+.footerColor {
     color: var(--white) !important;
 }
 
@@ -25,6 +26,7 @@ text-align: left;
     margin: 0 auto;
     margin-bottom: 16px;
 }
+
 .footer_top .small-text {
     font-style: normal;
     font-weight: 400;
@@ -49,45 +51,52 @@ text-align: left;
     width: 132px;
     height: 24px;
 }
-.logo p{
+
+.logo p {
     margin: 24px 0 8px;
     max-width: 263px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        color: var(--grey-600);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-600);
 }
-.social{
+
+.social {
     display: flex;
     justify-content: space-between;
     width: 240px;
 }
-.social img{
+
+.social img {
     width: 48px;
     height: 48px;
-    border: solid 1px var(--grey-100) ;
+    border: solid 1px var(--grey-100);
     padding: 12px;
     border-radius: 50%;
 }
+
 .social .img:hover,
 .social .img:focus {
     border: solid 1px var(--blue-500);
 }
+
 .pages,
 .contacts {
     margin-top: 40px;
     max-width: 305px;
 }
-.footer_bottom ul{
+
+.footer_bottom ul {
     margin-top: 24px;
 }
-.footer_bottom li{
+
+.footer_bottom li {
     margin-top: 16px;
 }
 
 .pages ul,
-.contacts p{
+.contacts p {
     list-style: none;
     font-style: normal;
     font-weight: 400;
@@ -128,6 +137,7 @@ text-align: left;
         font-size: 32px;
         line-height: 38px;
     }
+
     .footer_top .small-text {
         font-size: 16px;
         line-height: 24px;
@@ -135,18 +145,19 @@ text-align: left;
 }
 
 @media (min-width: 1024px) {
-  
+
     .footer_bottom {
         display: flex;
-        justify-content: space-around;   
- }
+        justify-content: space-around;
+    }
 
     .pages,
     .contacts {
         margin-top: 0;
         max-width: fit-content;
     }
-    .contacts p:nth-child(1){
+
+    .contacts p:nth-child(1) {
         margin-top: 0;
     }
 
@@ -154,26 +165,22 @@ text-align: left;
         font-size: 44px;
         line-height: 49px;
     }
-    .footer_top .grid_subtitle{
+
+    .footer_top .grid_subtitle {
         margin-top: 0;
     }
+
     .footer_top .small-text {
         font-size: 20px;
         line-height: 28px;
     }
 
-    /* .footer_top .btn {
-        margin-top: 50px;
-    } */
 }
 
 @media (min-width: 1280px) {
     .footer_top .text {
         font-size: 40px;
         line-height: 48px;
-        /* letter-spacing: -1px; */
-        /* width: 100%; */
-        /* max-width: 1030px; */
     }
 
     .footer_top .btn {

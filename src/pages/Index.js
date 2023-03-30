@@ -1,11 +1,8 @@
-import {Banner} from "../components/Banner/Banner";
-import { Grids, GridImage, GridText } from "../components/Grids/Grids";
+import { Banner } from "../components/Banner/Banner";
+import { GridImage, GridText } from "../components/Grids/Grids";
 import "../Styles/Home.css"
-import { Link } from "react-router-dom";
 import { Home } from "../components/Contents";
 import { Flex } from "../components/Flex/Flex";
-import Buttons from "../components/Buttons/Buttons";
-import { useState } from "react";
 import { WaitList } from "../components/Form/Form";
 
 const Index = () => {
@@ -28,32 +25,19 @@ const Index = () => {
         <div>
           <p className="text">Join our newsletter</p>
           <p className="small-text">Stay up to date with our latest programmes</p>
-          {/* <form class="waitlist_form" id="waitlist_form"  onSubmit={submit}>
-            <input type="email"
-             value={email}
-              onChange={(e)=>{setEmail(e.target.value)}} 
-              class="input_email" id="waitlist_email" placeholder="Enter your email address" required />
-
-            <Buttons
-              buttontype="btn brown_btn"
-              value="Join our newsletter"
-              link="contact-us"
-              type="submit"
-            />
-          </form> */}
           <WaitList />
         </div>
       </div>
 
       <div className={`grids choose`}>
         <div>
-          <p className="grid_title">Why Choose TTLabs?</p> 
+          <p className="grid_title">Why Choose TTLabs?</p>
           <div className="grid">
             <p className={`grid_subtitle`}>We're dedicated to helping you find the perfect co-founder for your startup. Our platform is designed to connect you with like-minded individuals who share your passion for entrepreneurship and innovation. We provide in-house technological expertise to help you build your product or service more efficiently and effectively. Our network of investors and mentors can provide the resources you need to grow and scale your business.</p>
             <p className={`grid_subtitle`}>We're committed to your success. We work closely with our founders to ensure they have the support and guidance they need to achieve their goals. Whether you're a first-time founder or an experienced entrepreneur, TTLabs has everything you need to turn your startup dreams into a reality. So why wait? Join our community today and start building the next big thing.</p>
           </div>
         </div>
-    </div>
+      </div>
     </div>
   );
 };
