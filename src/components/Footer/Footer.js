@@ -1,10 +1,10 @@
 import "./Footer.css";
 import Buttons from "../Buttons/Buttons";
 import Footer_logo from "../../images/footer_logo.png";
-import Instagram from "../../images/ig.png";
-import Facebook from "../../images/fb.png";
-import Twitter from "../../images/tw.png";
-import LinkedIn from "../../images/linkedIn.png";
+import Instagram from "../../images/instagram.svg";
+import Facebook from "../../images/facebook.svg";
+import Twitter from "../../images/twitter.svg";
+import LinkedIn from "../../images/linkedin.svg";
 import { Link, useLocation } from "react-router-dom";
 import { GridText } from "../Grids/Grids";
 
@@ -47,7 +47,7 @@ const Footer = (props) => {
           <img src={Footer_logo} className="footer_logo" alt="" />
           <p>Create the businesses of the future with us.</p>
             <div className="social">
-            <a href="https://instagram.com/ttlabs_vc?igshid=YmMyMTA2M2Y="><img src={Instagram} alt="" /></a>
+            <a href="https://instagram.com/ttlabs_vc?igshid=YmMyMTA2M2Y="><img src={Instagram} alt="" className="img" /></a>
             <a href=""><img src={Facebook} alt="" /></a>
             <a href="https://twitter.com/ttlabs_vc?s=11&t=cV_9xZOh-6po59ncWQXKYg"><img src={Twitter} alt="" /></a>
             <a href="https://www.linkedin.com/company/tt-labs/"><img src={LinkedIn} alt="" /></a>

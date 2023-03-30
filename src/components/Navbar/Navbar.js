@@ -40,17 +40,17 @@ const Navbar = () => {
                     <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <Link to="/works">How it works</Link>
+                    <Link to="/about-us">About Us</Link>
                   </li>
                   <li>
-                    <Link to="/about-us">About Us</Link>
+                    <Link to="/works">How it works</Link>
                   </li>
                   <li>
                     <Link to="/contact-us">Contact Us</Link>
                   </li>
                 </ul>
                 <div className="quote">
-                  <a href="https://form.typeform.com/to/dCMuWNKR">Join Us</a>
+                  <a href="https://form.typeform.com/to/dCMuWNKR">Join Our Program</a>
                 </div>
               </div>
             </div>
@@ -92,7 +92,7 @@ const Navbar = () => {
                 </ul>
                 <div className="quote">
                   <a href="https://form.typeform.com/to/dCMuWNKR" onClick={() => linkClick()}>
-                  Join Us
+                  Join Our Program
                   </a>
                 </div>
                 
