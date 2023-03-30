@@ -72,7 +72,7 @@ text-align: left;
 }
 .social .img:hover,
 .social .img:focus {
-    border: solid 1px red;
+    border: solid 1px var(--blue-500);
 }
 .pages,
 .contacts {
