@@ -73,12 +73,14 @@ export const ContactForm = () => {
         
       </div>
       <button type="submit"  disabled={isSubmitting} className="btn brown_btn"><p>SEND MESSAGE</p></button>
-                 
-      {serverState && (
-       
-        <p className={"submitted"}>
-                    {serverState.msg}
-                  </p>
+                    
+
+            {serverState && (
+                <div id="popup_message">
+                  <div class="popup_message">
+                    <p>Thank you for contacting us, your message has been sent successfully.</p>
+                  </div>
+                </div>
                 )}
               </Form>
             )}
@@ -102,6 +104,7 @@ Airtable.configure({
 
 const Base = Airtable.base(Base_id)
 const [email, setEmail]= useState('')
+const [submitted, setSubmitted]= useState(false)
 
   
 
@@ -113,11 +116,11 @@ const [email, setEmail]= useState('')
         function(err, record) {
           if (err) {
             console.error(err);
-            console.error('waitlist error');
             return;
           }
           setEmail("")
           console.log("Message sent successfully");
+          setSubmitted(true)
         });
        
   }
@@ -129,7 +132,13 @@ const [email, setEmail]= useState('')
       class="input_email" id="waitlist_email" placeholder="Enter your email address" required />
 
       <button type="submit" className="brown_btn btn"><p>Join our newsletter</p></button>
-
+      {submitted &&
+        <div id="popup_message">
+        <div class="popup_message">
+          <p>Your details has been added to our newsletter.</p>
+        </div>
+      </div>
+      }
   </form>
   );
 };

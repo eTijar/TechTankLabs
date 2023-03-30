@@ -9,6 +9,7 @@
     }
 
 .community {
+    position: relative;
     text-align: center;
     color: var(--white);
     background-color: var(--blue-800);
