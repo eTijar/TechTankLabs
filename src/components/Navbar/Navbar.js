@@ -90,7 +90,7 @@ const Navbar = () => {
                   </li>
                 </ul>
                 <div className="quote">
-                  <a href="https://form.typeform.com/to/dCMuWNKR" onClick={() => linkClick()}>
+                  <a href="https://zk4a3x2uygz.typeform.com/to/FCgD2Wx2" onClick={() => linkClick()}>
                     Join Our Program
                   </a>
                 </div>

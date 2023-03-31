@@ -8,8 +8,8 @@ const ContactUs = () => {
       <Banner2
         headerClass=""
         headerTextClass="banner-title"
-        headingText="How it Works"
-        subtitle="At TTLabs, we believe that building a successful startup requires a strong team with diverse skills and perspectives. That's why we're dedicated to helping aspiring entrepreneurs meet their co-founders and build the teams they need to succeed."
+        headingText="Contact Us"
+        subtitle="Thank you for your interest in TTLabs! If you have any questions or comments, please feel free to get in touch with us. Here's how you can contact us:"
       />
       <div className="contact_container">
         <ContactForm />

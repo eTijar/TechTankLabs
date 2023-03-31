@@ -36,7 +36,7 @@ const Footer = (props) => {
             <Buttons
               buttontype="btn blue_btn footer-btn"
               value="Join Us"
-              outlink="https://form.typeform.com/to/dCMuWNKR"
+              outlink="https://zk4a3x2uygz.typeform.com/to/dfZdLg4G"
             />
           </div>
         </div>

@@ -14,7 +14,7 @@ const Index = () => {
         headerTextClass="banner-title"
         headingText="Welcome to TTLabs- Meet Innovators, Investors and Start-up experts."
         subtitle="Are you an entrepreneur, an engineer or a brilliant operator who wants to build the next big thing? Join TTLabs today and let’s get to work."
-        link="https://form.typeform.com/to/dCMuWNKR"
+        link="https://zk4a3x2uygz.typeform.com/to/FCgD2Wx2"
       />
       <GridText bgColor="adjustMarginB" grid="grid" launchSpace='launch_space' data={Home.lauch} />
       <Flex data={Home.flex} />
