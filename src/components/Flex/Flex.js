@@ -3,8 +3,8 @@ import './Flex.css'
 export const Flex = (props) => {
   return (
     <div className={`flex  ${props.flex}`}>
-      {props.data.map((data) => (
-        <div className=''>
+      {props.data.map((data, i) => (
+        <div className='' key={i}>
           <img src={data.image} className="flex-image" alt="" />
           <p className="flex_title">{data.title}</p>
           <p className="flex_subtitle">{data.subtitle}</p>
@@ -22,8 +22,8 @@ export const FlexGrid = (props) => {
         <p className="subtopic">{props.subtopic}</p>
       </>}
       <div className={`${props.flex}`}>
-        {props.data.map((data) => (
-          <div className=''>
+        {props.data.map((data, i) => (
+          <div className='' key={i}>
             <img src={data.image} className={`flex-image ${props.imgSize}`} alt="" />
             <p className="flex_title">{data.title}</p>
             <p className="flex_subtitle">{data.subtitle}</p>

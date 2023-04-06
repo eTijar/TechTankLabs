@@ -75,7 +75,7 @@ export const ContactForm = () => {
 
             {serverState && (
               <div id="popup_message">
-                <div class="popup_message">
+                <div className="popup_message">
                   <p>Thank you for contacting us, your message has been sent successfully.</p>
                 </div>
               </div>
@@ -123,16 +123,16 @@ export const WaitList = () => {
 
   }
   return (
-    <form class="waitlist_form" id="waitlist_form" onSubmit={submit}>
+    <form className="waitlist_form" id="waitlist_form" onSubmit={submit}>
       <input type="email"
         value={email}
         onChange={(e) => { setEmail(e.target.value) }}
-        class="input_email" id="waitlist_email" placeholder="Enter your email address" required />
+        className="input_email" id="waitlist_email" placeholder="Enter your email address" required />
 
       <button type="submit" className="brown_btn btn"><p>Join our newsletter</p></button>
       {submitted &&
         <div id="popup_message">
-          <div class="popup_message">
+          <div className="popup_message">
             <p>Your details has been added to our newsletter.</p>
           </div>
         </div>

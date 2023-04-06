@@ -20,7 +20,7 @@ const Footer = (props) => {
 
   return (
     <div className="footer">
-      {console.log(location.pathname)}
+      {/* {console.log(location.pathname)} */}
 
       {/* Get current Link Pathname and condition the view with it */}
       {location.pathname !== "/contact-us" && location.pathname !== "/about-us" ?
