@@ -81,7 +81,7 @@ const Footer = (props) => {
             <p className="footer_title">CONTACT INFORMATION</p>
             <p>Email:  contact@ttlabs.vc</p>
             <p>Phone: +2348022577950</p>
-            <p>Address: Sirasso close, Wuse zone 7 Abuja</p>
+            <p>Address: The Epicenter, Zilley Aggrey Drive, Karimo District, FCT Abuja</p>
           </div>
         </div>
       </div>
